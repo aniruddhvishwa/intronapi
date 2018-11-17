@@ -19,15 +19,15 @@ import * as passport from '@nestjs/passport';
     TypeOrmModule.forRoot(
       {
         "type":"postgres",
-        "host":"localhost",
+        "host":"ec2-50-17-203-51.compute-1.amazonaws.com",
         "port":5432,
-        "username":"postgres",
-        "password":"root",
-        "database":"joister",
-        "entities": [__dirname + '/**/*.entity{.ts,.js}'],
+        "username":"apyehobddkucbu",
+        "password":"16151048b67b9fffa391c37de780d105c4fb7bd8fc418ed32cd7fb96a5b667bd",
+        "database":"d6p1nq0ak1b0d5",
+        "entities": ["__dirname + '/**/*.entity{.ts,.js}'"],
         "synchronize": true,
-        migrations: [__dirname + '/migration/**/*.ts'],
-        subscribers: [__dirname + '/subscriber/**/*.ts'],
+        migrations: ["__dirname + '/migration/**/*.ts'"],
+        subscribers: ["__dirname + '/subscriber/**/*.ts'"],
     }
     ),
     AuthModule,
