@@ -30,13 +30,13 @@ import * as passport from '@nestjs/passport';
         subscribers: ["__dirname + '/subscriber/**/*.ts'"],
     }
     ),
-    AuthModule,
-    CustomerModule,
-    SharedModule,
-    UserModule,
-    MstsiteModule,
-    TypeOrmModule.forRoot(),
-    CustomerGroupModule
+    // AuthModule,
+    // CustomerModule,
+    // SharedModule,
+    // UserModule,
+    // MstsiteModule,
+    // TypeOrmModule.forRoot(),
+    // CustomerGroupModule
     
   ],
   controllers: [AppController],
